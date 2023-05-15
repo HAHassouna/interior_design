@@ -1,0 +1,132 @@
+body{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.con{
+    padding: 0 25px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.header{
+    background-color: #e8e8e8;
+    box-shadow: 20px 4px 15px black;
+    position: sticky;top: 0;
+    z-index: 100;
+}
+
+
+.logo{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #5179c2;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.nav li a{
+color: black;
+padding: 10px;
+}
+
+
+
+
+.landing{
+    background-image: url(mounten\ .jpg);
+
+
+    background-size: cover;
+    height: 100vh;
+}
+
+.intro{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.title{
+    color: #e8e8e8;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    margin: 20px 0;
+}
+
+.serv1{
+margin: 50px;
+}
+
+.serv2{
+    margin: 100px;
+}
+
+
+.artical .contaner{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+h2{
+    font-size: 70px;
+    margin: 10px 0;
+}
+
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.line{
+    margin-bottom: 100px;
+}
+
+
+.serv4{
+   margin: auto;
+}
+
+
+.serv3{
+    margin: 100px
+}
+
+
+
+
+.serv5{
+    margin: 100px
+}
+
+
+
+
+
+
